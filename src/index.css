@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200 dark:border-gray-700;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .calculator-button {
+    @apply w-16 h-16 rounded-lg font-mono text-xl font-medium transition-all duration-200 
+           hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .calculator-button-number {
+    @apply bg-calculator-button text-white hover:bg-calculator-buttonHover;
+  }
+  
+  .calculator-button-operator {
+    @apply bg-calculator-operator text-white hover:bg-calculator-operatorHover;
+  }
+  
+  .calculator-button-clear {
+    @apply bg-calculator-clear text-white hover:bg-calculator-clearHover;
+  }
+  
+  .calculator-button-function {
+    @apply bg-gray-600 text-white hover:bg-gray-700;
+  }
+  
+  .calculator-display {
+    @apply bg-calculator-display text-white font-mono text-right p-4 rounded-lg 
+           min-h-[80px] flex items-end justify-end text-2xl;
+  }
+  
+  .scientific-panel {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 border border-gray-200 dark:border-gray-700;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-500;
+}
