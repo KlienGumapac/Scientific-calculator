@@ -171,22 +171,3 @@ src/
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- [Math.js](https://mathjs.org/) for mathematical operations
-- [Tailwind CSS](https://tailwindcss.com/) for styling
-- [Framer Motion](https://www.framer.com/motion/) for animations
-- [Lucide React](https://lucide.dev/) for icons
-
-## Future Enhancements
-
-- [ ] Graphing capabilities
-- [ ] Unit conversions
-- [ ] Statistical functions
-- [ ] Matrix operations
-- [ ] Equation solver
-- [ ] Export/import calculation history
-- [ ] Custom themes
-- [ ] Accessibility improvements
-- [ ] PWA support
