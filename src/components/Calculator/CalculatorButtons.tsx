@@ -168,5 +168,4 @@ const CalculatorButtons: React.FC<CalculatorButtonsProps> = ({
     </div>
   );
 };
-
 export default CalculatorButtons; 

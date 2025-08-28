@@ -75,5 +75,4 @@ const History: React.FC<HistoryProps> = ({ history, onHistorySelect }) => {
     </div>
   );
 };
-
 export default History; 

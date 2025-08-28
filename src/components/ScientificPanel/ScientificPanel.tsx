@@ -123,5 +123,4 @@ const ScientificPanel: React.FC<ScientificPanelProps> = ({
     </motion.div>
   );
 };
-
 export default ScientificPanel; 

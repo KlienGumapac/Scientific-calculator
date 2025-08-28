@@ -105,5 +105,4 @@ const Memory: React.FC<MemoryProps> = ({ memory, onMemoryOperation }) => {
     </div>
   );
 };
-
 export default Memory; 

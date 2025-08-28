@@ -30,5 +30,4 @@ const ThemeToggle: React.FC<ThemeToggleProps> = ({ isDarkMode, onToggle }) => {
     </motion.button>
   );
 };
-
 export default ThemeToggle; 

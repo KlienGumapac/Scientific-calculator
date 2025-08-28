@@ -350,5 +350,4 @@ const Calculator: React.FC = () => {
     </div>
   );
 };
-
 export default Calculator; 

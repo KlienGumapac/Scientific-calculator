@@ -44,5 +44,4 @@ const CalculatorDisplay: React.FC<CalculatorDisplayProps> = ({
     </div>
   );
 };
-
 export default CalculatorDisplay; 
